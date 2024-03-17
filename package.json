@@ -1,0 +1,30 @@
+{
+  "name": "Unit-testing",
+  "version": "1.0.0",
+  "description": "Server testing task for Unit-testing course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "ava ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doddg10/Unit-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doddg10/Unit-testing/issues"
+  },
+  "homepage": "https://github.com/Doddg10/Unit-testing#readme",
+  "dependencies": {
+    "ava": "^6.1.2",
+    "chai": "^4.3.7",
+    "fastify": "^4.26.2",
+    "mongodb-memory-server": "^9.1.7",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "sinon": "^17.0.1"
+  }
+}
